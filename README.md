@@ -27,4 +27,22 @@
 + git reflog：查看操作日志
 + git reset：回溯历史版本
   + git reset --hard 目标时间点的哈希值
-  - faeture-C
++ git rebase：更改历史
+
+#### 推送至远程仓库
+
++ git remote add origin git@github.com:QiuYe/xxxx.git
++ git push -u origin master
++ git checkout -b feature-A
++ git push -u origin feature-A
+
+#### 从远程仓库获取
+
++ git clone git@github.com:QiuYe/xxxx.git
++ git branch -a
++ git checkout -b feature-A origin/feature-A
++ git diff
++ git commint -am "Add feature-A"
++ git push
++ git pull origin feature-A
++ 
