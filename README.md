@@ -20,4 +20,3 @@
 + git branch：显示分支一览表
 + git checkout -b：创建、切换分支
   + git checkout -b feature-A
-
