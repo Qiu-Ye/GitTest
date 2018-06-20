@@ -17,3 +17,7 @@
   + -p：显示文件的改动
 + git diff：查看更改前后的差别
   + git diff HEAD：查看工作树和最新提交的差别
++ git branch：显示分支一览表
++ git checkout -b：创建、切换分支
+  + git checkout -b feature-A
+
