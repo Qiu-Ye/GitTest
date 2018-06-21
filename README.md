@@ -39,10 +39,41 @@
 #### 从远程仓库获取
 
 + git clone git@github.com:QiuYe/xxxx.git
+
 + git branch -a
+
 + git checkout -b feature-A origin/feature-A
+
 + git diff
+
 + git commint -am "Add feature-A"
+
 + git push
+
 + git pull origin feature-A
-+ 
+
+
+#### Pull Request
+
++ git clone
+
++ git branch -a
+
++ git checkout -b work gh-pages
+
++ git diff
+
++ git add index.html
+
++ git push origin work
+
++ 发送Pull Request
+
+#### 仓库的维护
+
++ git remote add upstream git://github.com/原仓库名称
++ git fetch upstream
+
+  
+
+  
